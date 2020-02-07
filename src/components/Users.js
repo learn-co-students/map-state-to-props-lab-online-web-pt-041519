@@ -3,14 +3,6 @@ import connect from 'react-redux/lib/connect/connect';
 
 class Users extends Component {
 
-  // listUsers = () => {
-  //   const list = []
-  //   for(let ea of this.props.users) {
-  //     list.push(`<li>${ea.username}, from ${ea.hometown}</li>`)
-  //   }
-  //   return list;
-  // }
-
   render() {
     // debugger;
     return (
