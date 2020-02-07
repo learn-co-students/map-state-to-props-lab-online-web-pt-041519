@@ -4,8 +4,8 @@ import { connect } from 'react-redux'
 class UserInput extends Component {
 
   state = {
-    username: '',
-    hometown: ''
+    // username: '',
+    // hometown: ''
   }
 
   handleInputChange = (event) => {
@@ -43,5 +43,6 @@ class UserInput extends Component {
     )
   }
 }
+
 
 export default connect()(UserInput);

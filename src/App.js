@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import UserInput from './components/UserInput'
+import Users from './components/Users'
 import ConnectedUsers from './components/Users'
 
 class App extends Component {
